@@ -1,65 +1,40 @@
-/* Global Styles */
-body {
-  background-color: #f8f8f8;
-  font-family: Arial, sans-serif; /* Added font-family */
-  padding: 50px;
-  margin: 0;
+*{
+	text-align:center;
+	background-color:#f8f8f8;
 }
-
-h1 {
-  text-align: center;
-  color: #333; /* Adding color to the title */
+ 
+.book-library{
+	margin-top:0px;
+	background-color:rgb(255, 255, 255);
+/* 	padding:5px; */
+	
 }
-
-/* Container for all books */
-.book-library {
-  margin: 10px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  max-width: 1200px;
-  display: grid; /* Use grid layout */
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Make grid responsive */
-  gap: 20px; /* Space between books */
+ 
+.book-library h1{
+	padding:20px;
 }
-
-/* Each individual book block */
-.book {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+.author{
+	text-align:start;
+	color:rgb(119, 119, 119);
 }
-
-.book img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 15px;
+h2{
+	text-align:start;
 }
-
-/* Book Title */
-.book h2 {
-  font-size: 1.6em;
-  color: #333;
-  margin: 10px 0;
+ 
+.book img{
+	padding:50px;
+	
 }
-
-/* Author Name */
-.book p {
-  color: #777777;
-  font-size: 1em;
-  margin-bottom: 15px;
+ 
+ div .price-block{
+	color:white;
+	background-color:rgb(46, 204, 113);
+	padding:10px;
+	border-radius:5px;
 }
-
-/* Price Block */
-.Price-block {
-  padding: 10px;
-  background-color: #2ecc71;
-  color: white;
-  font-size: 1.2em;
-  font-weight: bold;
-  border-radius: 5px;
-  display: inline-block;
+ 
+.book{
+    margin-top: 20px;
+    padding-bottom: 5px;
 }
